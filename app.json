@@ -1,5 +1,12 @@
 {
   "expo": {
-    "sdkVersion": "22.0.0"
+    "sdkVersion": "22.0.0",
+    "name": "Personal Touch",
+    "icon": "./robot.png",
+    "version": "0.0.2",
+    "slug": "your-app-slug",
+    "android": {
+      "package": "com.shadid.personaltouch"
+    }
   }
 }

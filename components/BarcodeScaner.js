@@ -14,12 +14,14 @@ export default class BarcodeScaner extends Component {
         super(props);
         this.state = {
             hasCameraPermission: null,
+            count: 0
         }
     }
 
     async componentWillMount() {
         const { status } = await Permissions.askAsync(Permissions.CAMERA);
         this.setState({hasCameraPermission: status === 'granted'});
+        this._setCount();
     }
 
     render() {
@@ -58,6 +60,12 @@ export default class BarcodeScaner extends Component {
         }
     }
 
+    _setCount = () => {
+        axios.get(`http://shadid12.herokuapp.com/count/${this.props.name}`)
+            .then((res) => {
+                this.setState({count: res.data});
+            })
+    };
     _showCount = () => {
       axios.get(`http://shadid12.herokuapp.com/count/${this.props.name}`)
           .then((res) => {
@@ -91,8 +99,10 @@ export default class BarcodeScaner extends Component {
                     axios.post('http://shadid12.herokuapp.com/item', {
                         username: this.props.name,
                         address:  r,
-                        pin: pin
+                        pin: pin,
+                        count: this.state.count + 1
                     }).then((res) => {
+                        this.setState({count: this.state.count + 1});
                         console.log(res);
                     })
                 }},
