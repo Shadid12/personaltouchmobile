@@ -59,7 +59,12 @@ export default class BarcodeScaner extends Component {
     }
 
     _showCount = () => {
-      console.log('Not implemented yet !!');
+      axios.get(`http://shadid12.herokuapp.com/count/${this.props.name}`)
+          .then((res) => {
+            Alert.alert(
+                `${this.props.name} Total: ${res.data}`
+            )
+          })
     };
 
     _handleBarCodeRead = ({ type, data }) => {
