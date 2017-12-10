@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f8e37d-f45c-46c2-a325-b9efab0fb5fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/Scanner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,13 +21,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Scanner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1512880810704" expanded="true" signature="2034:2052" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2052:2829" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2080:2164" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2107:2124" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2276:2809" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2323:2347" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2347:2541" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2470:2489" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2605:2785" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2650:2668" ph="..." />
+                <marker date="1512880810704" expanded="true" signature="2706:2728" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,9 +57,11 @@
       <file leaf-file-name="BarcodeScaner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/BarcodeScaner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="228">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +106,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/BarcodeScaner.js" />
+        <option value="$PROJECT_DIR$/components/Scanner.js" />
       </list>
     </option>
   </component>
@@ -178,12 +204,12 @@
       <workItem from="1510287849194" duration="9326000" />
       <workItem from="1510434412562" duration="1243000" />
       <workItem from="1510583606905" duration="61000" />
-      <workItem from="1512874568924" duration="258000" />
+      <workItem from="1512874568924" duration="4100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11609000" />
+    <option name="totallyTimeSpent" value="15451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="703" extended-state="6" />
@@ -226,9 +252,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -252,7 +276,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -260,9 +286,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -270,7 +294,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -294,9 +320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -304,7 +328,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,9 +354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -338,7 +362,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -358,20 +384,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/BarcodeScaner.js">
+    <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="144">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/components/BarcodeScaner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="48" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Scanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1512880810704" expanded="true" signature="2034:2052" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2052:2829" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2080:2164" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2107:2124" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2276:2809" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2323:2347" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2347:2541" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2470:2489" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2605:2785" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2650:2668" ph="..." />
+            <marker date="1512880810704" expanded="true" signature="2706:2728" ph="..." />
           </folding>
         </state>
       </provider>

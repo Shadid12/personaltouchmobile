@@ -7,7 +7,7 @@ import { StyleSheet,
     TouchableOpacity,
     KeyboardAvoidingView }
     from 'react-native';
-import BarcodeScaner from './components/BarcodeScaner';
+import Scanner from './components/Scanner';
 
 export default class App extends React.Component {
 
@@ -60,9 +60,7 @@ export default class App extends React.Component {
             return (this.notLoggedin())
         } else {
             return (
-                <BarcodeScaner
-                    name={this.state.username}
-                />
+                <Scanner user={this.state.username} />
             )
         }
   }
