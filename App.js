@@ -76,7 +76,7 @@ export default class App extends React.Component {
             if (this.state.scaner === true) {
                 return ( <Scanner user={this.state.username} /> )
             } else {
-                return ( <BarcodeScanner user={this.state.username} />)
+                return ( <BarcodeScanner name={this.state.username} />)
             }
         }
   }
