@@ -8,6 +8,7 @@ import { StyleSheet,
     KeyboardAvoidingView }
     from 'react-native';
 import Scanner from './components/Scanner';
+import BarcodeScanner from './components/BarcodeScaner';
 
 export default class App extends React.Component {
 
@@ -15,7 +16,8 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             username: '',
-            logged: false
+            logged: false,
+            scaner: false
         }
     }
 
@@ -24,6 +26,12 @@ export default class App extends React.Component {
             this.setState({logged: true});
         }
     };
+
+    handleLogingCamera = (e) => {
+        if (this.state.username) {
+            this.setState({logged: true, scaner: true});
+        }
+    }
 
 
     notLoggedin() {
@@ -46,7 +54,13 @@ export default class App extends React.Component {
                         <TouchableOpacity style={stylesForm.buttonContainer}
                                           onPress={this.handleLoging}
                         >
-                            <Text style={stylesForm.buttonText} >Login</Text>
+                            <Text style={stylesForm.buttonText} >Login Camera</Text>
+                        </TouchableOpacity>
+                        <View></View>
+                        <TouchableOpacity style={stylesForm.buttonContainer}
+                                          onPress={this.handleLogingCamera}
+                        >
+                            <Text style={stylesForm.buttonText} >Login Scanner</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -59,9 +73,11 @@ export default class App extends React.Component {
         if (this.state.logged === false) {
             return (this.notLoggedin())
         } else {
-            return (
-                <Scanner user={this.state.username} />
-            )
+            if (this.state.scaner === true) {
+                return ( <Scanner user={this.state.username} /> )
+            } else {
+                return ( <BarcodeScanner user={this.state.username} />)
+            }
         }
   }
 }
